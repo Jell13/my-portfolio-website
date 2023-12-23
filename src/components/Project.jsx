@@ -15,7 +15,7 @@ const Project = () => {
     
                 <div className='flex flex-col sm:flex-row rounded-lg'>
                     <img className=' h-auto w-full sm:w-1/2 rounded-md duration-200 hover:scale-105 inline' src={empty_repository} alt="" />
-                    <div className=' p-8 text-center w-full sm:w-1/2 flex flex-col justify-center items-center'>
+                    <div className=' p-8 text-center w-full sm:w-1/2 flex flex-col justify-center items-center gap-12'>
                         <h2 className='font-bold text-lg pb-8'>First Project Title</h2>
                         <p>Something something something
                             something something something
@@ -29,7 +29,7 @@ const Project = () => {
 
                 <div className='flex flex-col sm:flex-row-reverse rounded-lg'>
                     <img className=' h-auto w-full sm:w-1/2 rounded-md duration-200 hover:scale-105 inline' src={empty_repository} alt="" />
-                    <div className=' p-8 text-center w-full sm:w-1/2 flex flex-col justify-center items-center'>
+                    <div className=' p-8 text-center w-full sm:w-1/2 flex flex-col justify-center items-center gap-12'>
                         <h2 className='font-bold text-lg pb-8'>Second Project Title</h2>
                         <p>Something something something
                             something something something
@@ -43,7 +43,7 @@ const Project = () => {
 
                 <div className='flex flex-col sm:flex-row rounded-lg'>
                     <img className=' h-auto w-full sm:w-1/2 rounded-md duration-200 hover:scale-105 inline' src={empty_repository} alt="" />
-                    <div className=' p-8 text-center w-full sm:w-1/2 flex flex-col justify-center items-center'>
+                    <div className=' p-8 text-center w-full sm:w-1/2 flex flex-col justify-center items-center gap-12'>
                         <h2 className='font-bold text-lg pb-8'>Third Project Title</h2>
                         <p>Something something something
                             something something something
