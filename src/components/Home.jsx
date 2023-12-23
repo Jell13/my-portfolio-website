@@ -1,7 +1,7 @@
 import { HiArrowRight } from "react-icons/hi";
 import myHero from "../assets/myhero.png"
 import {Link} from 'react-scroll'
-import Reveal from 'react-reveal/Reveal';
+
 
 const Home = () => {
   return (

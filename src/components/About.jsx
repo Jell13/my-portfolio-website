@@ -1,5 +1,5 @@
 import React from 'react'
-import Reveal from 'react-reveal'
+
 const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
