@@ -5,6 +5,7 @@ import javascript from '../assets/javascript.png'
 import reactImg from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
+import python from '../assets/python-logo.png'
 
 
 const Experience = () => {
@@ -30,26 +31,27 @@ const Experience = () => {
         },
         {
             id:4,
+            src: python,
+            text: 'Python',
+            style: 'shadow-sky-800'
+        },
+        {
+            id:5,
             src: reactImg,
             text: 'React',
             style: 'shadow-blue-600'
         },
         {
-            id:5,
+            id:6,
             src: tailwind,
             text: 'Tailwind',
             style: 'shadow-sky-400'
         },
-        {
-            id:6,
-            src: github,
-            text: 'GtiHub',
-            style: 'shadow-gray-400'
-        }
+
     ]
   return (
     <div name='experience' className=' w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '>
-       <div className=' max-w-screen-lg flex flex-col justify-center mx-auto p-4 w-full h-full'>
+       <div className=' max-w-screen-lg flex flex-col justify-center mx-auto p-4 w-full h-lvh'>
             <div className='pb-8'>
                 <h2 className='text-4xl font-bold inline border-b-4 border-gray-500'>Experience</h2>
                 <p className='text-xl py-6'>These are the things I am experienced with</p>
