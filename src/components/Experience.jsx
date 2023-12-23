@@ -51,7 +51,7 @@ const Experience = () => {
     ]
   return (
     <div name='experience' className=' w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '>
-       <div className=' max-w-screen-lg flex flex-col justify-center mx-auto p-4 w-full h-lvh'>
+       <div className=' max-w-screen-lg flex flex-col justify-center mx-auto p-4 w-full h-full'>
             <div className='pb-8'>
                 <h2 className='text-4xl font-bold inline border-b-4 border-gray-500'>Experience</h2>
                 <p className='text-xl py-6'>These are the things I am experienced with</p>
